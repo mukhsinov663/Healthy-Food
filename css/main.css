@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header__menu {
+    padding-top: 10px;
+}
+
+.header__menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header__menu ul li {
+    margin-right: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header__menu ul li a {
+    text-decoration: none;
+    color: #150C01;
+    transition: all 200ms ease;
+}
+
+.header__menu ul li a:hover {
+    color: #DC780B;
+    /* text-decoration: underline; */
+}
+
+.header__button {
+    padding-left: 300px;
+    padding-top: 5px;
+}
+
+.btn-Now {
+    background-color: #DC780B;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+.home {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.home__info {
+    margin-top: 100px;
+}
+
+.home__title h1 {
+    max-width: 470px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+}
+
+.home__desc p {
+    max-width: 555px;
+}
+
+.btn-order {
+    background-color: #FFFFFF;
+    color: #DC780B;
+    padding: 20px 40px;
+    border-color: #DC780B;
+    font-weight: 500;
+}
+
+.btn-order:hover {
+    color: aliceblue;
+    background-color: #DC780B;
+}
+
+.btn-transparent {
+    margin-left: 30px;
+    padding: 20px 40px;
+    border-color: #DC780B;
+    font-weight: 500;
+    color: #DC780B;
+}
+
+.btn-transparent:hover {
+    color: aliceblue;
+    background-color: #DC780B;
+}
+
+.home__image img {
+    /* font-weight: 500; */
+    width: 100%;
+}
+
+.card {
+    border: none;
+}
+
+.feature {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.space {
+    text-align: center;
+    letter-spacing: 5px;
+    color: #DC780B;
+}
+
+.philosopher {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+}
+
+.feature__info {
+    margin-top: 20px;
+}
+
+.card {
+    padding: 30px;
+    text-align: center;
+}
+
+.card__image img {
+    padding: 10px;
+    border-radius: 47%;
+    background-color: #F4F7EB;
+}
+
+.philosopher {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+}
+
+.about {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about__info {
+    padding-top: 100px;
+}
+.about__image img{
+    max-width: 100%;
+}
+.philosopher-left {
+    font-weight: 700;
+    max-width: 487px;
+    font-family: "Philosopher", sans-serif;
+}
+
+.about__desc p {
+    max-width: 470px;
+}
+
+.foods {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.foods__desc {
+    text-align: center;
+}
+
+.foods__desc p {
+    margin-left: 220px;
+    font-size: 16px;
+    width: 740px;
+}
+
+.menu {
+    margin-top: 30px;
+    border: 1px solid gray;
+    max-width: 100%;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 77px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.menu__name {
+    display: flex;
+    /* max-width: 350px; */
+    padding: 10px;
+    justify-content: space-between;
+}
+.menu__image img{
+    width: 100%;
+}
+.menu__desc {
+    padding: 10px;
+    /* width: 100%; */
+}
+
+.header__bars {
+    display: none;
+}
+
+.menu__icons {
+    display: flex;
+    padding: 10px;
+    /* max-width: 100%; */
+    justify-content: space-between;
+}
+
+.menu__add i {
+    font-size: 35px;
+    color: #DC780B;
+}
+
+.menu__stars i {
+    color: #DC780B;
+}
+
+.philosopher-menu {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+}
+
+.btn-more {
+    border: none;
+    color: #DC780B;
+    margin-top: 30px;
+    margin-left: 530px;
+    font-weight: 500px;
+}
+
+.btn-more:hover {
+    background-color: #DC780B;
+    color: aliceblue;
+}
+
+.take {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FDFAF6;
+}
+
+.take__content {
+    margin-top: 150px;
+}
+
+.take__subtitle .space {
+    text-align: left;
+}
+
+.take__desc p {
+    max-width: 550px;
+}
+
+.btn-app {
+    background-color: #000;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn-app i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.btn-app:hover {
+    border: 1px solid #000;
+}
+
+.take__image {
+    padding-left: 100px;
+}
+
+.take__image img{
+    width: 100%;
+}
+.make {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.make__desc p {
+    max-width: 750px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+    content: "/f104";
+    font-family: fontawesome;
+}
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F4EAE0;
+}
+
+.philosopher-center {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 200px;
+    max-width: 749px;
+}
+
+.contact__input {
+    margin-left: 230px;
+}
+
+#message {
+    margin: 0;
+    min-width: 600px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+#send {
+    margin: 0;
+    min-width: 150px;
+    position: absolute;
+    left: 930px;
+    padding: 30px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #DC780B;
+}
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #252525;
+    color: #B7B7B7;
+}
+.slider{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.carousel{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.carousel-item img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+.carousel__stars{
+    text-align: center;
+}
+.slider__desc p{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    text-align: center;
+}
+.fa-solid{
+    color: yellow;
+}
+.carousel__user{
+    text-align: center;
+}
+.carousel-control-next-icon {
+    content: "/f054";
+    background-image: none;
+    font-family: fontawesome;
+}
+#footer {
+    color: aliceblue;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 900;
+}
+
+.footer__home ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer__home ul li a {
+    color: #B7B7B7;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.fa-instagram {
+    background: linear-gradient(to right bottom, #D86BF6, #FE8114, #FC1D69);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+    color: rgb(88, 176, 203);
+}
+
+.fa-square-twitter {
+    color: rgb(0, 255, 229);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+@media (max-width: 1200px) {
+    /* .home__image img {
+        width: 500px;
+    } */
+
+    #send {
+        left: 800px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* .menu__image img {
+        width: 305px;
+    } */
+
+    /* .about__image img {
+        max-width: 100%;
+    } */
+
+    /* .home__image img {
+        width: 400px;
+    } */
+
+    .header__menu ul li {
+        margin-right: 15px;
+        font-size: 15px;
+    }
+
+    .foods__desc p {
+        margin-left: 105px;
+    }
+
+    .philosopher-center {
+        margin-left: 113px;
+    }
+
+    .contact__input {
+        margin-left: 105px;
+    }
+
+    .header__menu ul li{
+        margin-right: 15px;
+    }
+
+    #send {
+        left: 696px;
+    }
+
+    .btn-more {
+        margin-left: 445px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* .home__image img {
+        width: 400px;
+    } */
+
+    .contact__input {
+        margin-left: 46px;
+    }
+
+    #send {
+        left: 589px;
+    }
+
+    .take__image {
+        padding-left: 26px;
+    }
+
+    .foods__desc p {
+        margin-left: 12px;
+    }
+
+    .home__image img {
+        width: 372px;
+    }
+
+    .header__button {
+        padding-left: 164px;
+    }
+
+    .philosopher-center {
+        margin-left: 31px;
+    }
+
+    .about__image img {
+        width: 373px;
+    }
+
+    .about__info {
+        padding-top: 20px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__bars {
+        padding-top: 15px;
+        display: block;
+        padding-left: 431px;
+    }
+
+    .btn-order {
+        padding: 20px 20px;
+    }
+
+    .btn-more {
+        margin-top: 20px;
+        margin-left: 326px;
+    }
+
+    .btn-transparent {
+        padding: 20px 20px;
+    }
+
+    .footer__connect {
+        font-size: 13px;
+    }
+
+    .footer__home ul li {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card__desc {
+        font-size: 11px;
+    }
+
+    .foods__desc p {
+        max-width: 500px;
+    }
+
+    #message {
+        min-width: 467px;
+    }
+
+    #send {
+        left: 392px;
+    }
+
+    .home__image img {
+        width: 276px;
+    }
+
+    .home__info {
+        margin-top: 0px;
+    }
+
+    .btn-order {
+        padding: 10px;
+    }
+
+    .btn-transparent {
+        padding: 10px;
+    }
+
+    .header__bars {
+        display: block;
+    }
+
+    .header__button {
+        padding-left: 107px;
+    }
+
+    .header__bars {
+        padding-left: 279px;
+    }
+
+    .take__image img {
+        width: 233px;
+    }
+
+    .menu__image img {
+        width: 100%;
+    }
+
+    .about__image img {
+        width: 275px;
+    }
+
+    .about__info {
+        padding-top: 0;
+    }
+
+    .philosopher-left {
+        font-size: 20px;
+    }
+
+    .about__desc p {
+        font-size: 12px;
+    }
+
+    .btn-more {
+        margin-left: 232px;
+    }
+
+    .take__image {
+        display: none;
+    }
+
+    .footer__connect {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    #message {
+        min-width: 258px;
+        padding: 21px;
+    }
+
+    #send {
+        left: 198px;
+        padding: 21px;
+    }
+
+    .foods__desc p {
+        max-width: 306px;
+        font-size: 15px;
+    }
+
+    .home__image {
+        display: none;
+    }
+
+    .about__image {
+        display: none;
+    }
+
+    .menu__image img {
+        width: 334px;
+    }
+
+    .header__button {
+        padding-left: 8px;
+    }
+
+    .header__bars {
+        padding-left: 115px;
+    }
+
+    .btn-more {
+        margin-left: 123px;
+    }
+
+    .take__image {
+        display: none;
+    }
+}
